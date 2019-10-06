@@ -31,6 +31,48 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* General Setup
 /*-----------------------------------------------------------------------------------*/
+
+
+/* W3 Schools Car*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+  text-align: center
+}
+.price::before{
+  content: "₦";
+}
+.pcenter{
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+/* End of W3 School Card */
+
 body{font-family: 'Rubik' sans-serif, Arial, Helvetica, sans-serif;padding:0;font-size:16px;margin:0 auto;color:#000000;background:url(images/purple/bg.jpg) no-repeat top center #5d1338;}
 .clear{clear:both;}
 p{padding:0;margin:0px;text-align:left;line-height:20px;}
@@ -64,13 +106,14 @@ ul.list li{ padding:5px 0 5px 20px; margin:0px; display:block;background:url(ima
 .left_full {margin:40px 35px 0 35px; float:left;}
 .left14{ width:196px; float:left; margin:45px 0 0 35px;}
 .left13{ width:273px; float:left; margin:45px 0 0 35px;}
+.leftcenter{ width:273px; float:left; margin:45px 0 0 35px; background-color: #f7c019;}
 .left23{ width:576px; float:left; margin:45px 0 0 35px;}
 .left12{ width:427px; float:left; margin:45px 0 0 35px;}
 
 #page_content{ width:960px; height:auto; position:relative; margin:0 0 10px 0; padding:0 0 45px 0; background-color:#ffffff;border-radius:20px;-moz-border-radius:20px; -webkit-border-radius:20px;-khtml-border-radius:20px;}
 
 .right_content{width:595px; float:right; margin:45px 35px 0 0;}
-.right_content_gallery{width:615px; float:right; margin:45px 15px 0 0;}
+.right_content_gallery{width:850px; margin:0 auto; padding-top: 30px; }
 .right_content_gallery p{ padding-right:20px;}
 
 .right_full, .sidebar_full{ margin:45px 0 0 0; clear:both; float:left;}
@@ -372,7 +415,7 @@ p.message_success{ padding-bottom:50px;}
 .header{ text-align:center; height:auto; padding:30px 0 20px 0;}
 .logo h1{font-size:35px;}
 .left_full, .left13, .left23, .left12, .left14{ width:90%; float:left; margin:40px 0 0 5%;}
-
+.leftcenter{ text-align: center; width:90%; margin:40px 0 0 13.1%;}
 #page_content{ width:92%; height:auto; position:relative; margin:0 0 10px 2%; padding:0px 2% 30px 2%;}
 .right_content{width:90%; float:none; margin:5px 0 0 5%; padding:25px 0 0 0;}
 .right_content_gallery{width:90%; float:none; margin:25px 0 0 5%; padding:25px 0 0 0;}
